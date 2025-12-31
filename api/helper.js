@@ -7,7 +7,7 @@ export function getRandomPositiveReaction(reaction) {
 // Get Emoji Array from String emoji set
 export function splitEmojis(emojiString) {
     const emojiRegex = /(\p{Emoji_Presentation}|\p{Extended_Pictographic}|\p{Emoji_Modifier_Base})/gu;
-    return emojiString.match(emojiRegex) || [];
+    return (emojiString || '').match(emojiRegex) || [];
 }
 
 // Get Chat IDs from Env | Slipt by `,`
