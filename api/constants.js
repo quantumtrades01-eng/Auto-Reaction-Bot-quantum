@@ -58,4 +58,11 @@ export const htmlContent = `
 </body>
 </html>
 `;
+// How many reactions per post (min–max)
+export const MIN_REACTIONS = 3;
+export const MAX_REACTIONS = 6;
+
+// Delay between reactions (milliseconds)
+export const MIN_DELAY = 700;
+export const MAX_DELAY = 1400;
 
